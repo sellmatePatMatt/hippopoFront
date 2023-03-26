@@ -1,1 +1,1 @@
-# hippopoFront
+# 다이어리 웹앱 프로젝트 프론트엔드 Repo
