@@ -1,5 +1,5 @@
 export default function test(){
     return (
-        <div>test</div>
+        <div>webhook test</div>
     )
 }
