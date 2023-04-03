@@ -1,5 +1,8 @@
+import Button from '@mui/material/Button';
 export default function test(){
     return (
-        <div>webhook test</div>
+        <div>
+            <Button variant='contained'>hi</Button>
+            webhook test</div>
     )
 }
