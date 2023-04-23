@@ -69,12 +69,15 @@ export default function ListByTime() {
                   alignItems="center"
                   sx={{ mr: 1 }}
                 >
-                  <Typography>{Months[+diarySummary.date.substring(5, 7)]}</Typography>
+                  <Typography component="div">
+                    {Months[+diarySummary.date.substring(5, 7)]}
+                  </Typography>
                   <Avatar>{diarySummary.date.slice(-2)}</Avatar>
                 </Box>
               </ListItemAvatar>
               <ListItemText
                 primary={<DiaryTitle>{diarySummary.title}</DiaryTitle>}
+                secondaryTypographyProps={{ component: 'span' }}
                 secondary={
                   <DiaryContent variant="body2">
                     {diarySummary.content}
